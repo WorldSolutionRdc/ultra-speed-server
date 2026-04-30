@@ -1,10 +1,10 @@
 cat > README.md << 'EOF'
-# Proxy Nginx pour VPS (161.35.91.8)
+# Proxy Nginx pour VPS (207.126.161.196)
 
 Proxy Nginx déployé sur Google Cloud Run pour rediriger le trafic TCP vers le VPS principal.
 
 ## Configuration
-- **VPS cible** : `161.35.91.8:443`
+- **VPS cible** : `207.126.161.196:443`
 - **Port d'écoute du proxy** : `8080`
 - **Région du VPS** : `europe-west2` (Londres, UK)
 - **Région Cloud Run** : `europe-west2` (Londres, UK) – alignée avec le VPS
